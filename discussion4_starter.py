@@ -35,7 +35,7 @@ class Rectangle():
     #
     # It first verifies inputs and return "Invalid input" if they are invalid.
     # Otherwise, it returns the area of the rectangle.
-
+    #calculating area
     def area(self):
         if Rectangle.verify_input(self) == False:
             return "Invalid input"
