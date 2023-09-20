@@ -55,7 +55,7 @@ class Rectangle():
             return self.width + self.height + self.width + self.height
     
 
-
+#execution of functions
 def main():
     r = Rectangle(10, 10)
     print(r)
